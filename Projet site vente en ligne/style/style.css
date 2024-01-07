@@ -1,0 +1,350 @@
+*{
+    background-color: transparent;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+main {
+    flex: 1;
+    padding: 20px;
+    background-color: #000000;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.959);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 50px;
+    transition: background-color 0.3s ease;
+}
+
+a{
+    font-family: 'Merienda', cursive;
+    float: right;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    position: relative;
+    right: 100px;
+    
+}
+
+nav a:hover {
+    background-color: #000000;
+    color: rgb(180, 0, 0);
+    border-radius: 30px;
+    padding: 10px;
+    
+}
+
+#HOME{
+    background-image: url(mediacss/HOME1.png);
+    background-size: cover;
+    width: 1309px;
+    height: 620px;
+}
+
+#PRODUCTS{
+    background-color: white;
+    overflow: hidden;
+    height: 730px;
+}
+
+h1{
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-family: 'Merriweather', serif;
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    padding: 20px; 
+}
+
+.box{
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 20px;
+    height: 300px;
+    border: 0.5px solid rgba(0,0,0,.03);
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    top: 40px;
+    background-color: black;
+}
+.box:hover {
+    box-shadow: 15px 10px 10px rgba(53, 52, 52, 0.932);
+}
+
+/* Styles for Image within Box5 */
+.box img {
+    height: 220px;
+    width: 250px;
+    position: relative;
+    left: 25px;
+    top: 5px;
+    
+}
+
+/* Styles for Paragraph within Box5 */
+.box p {
+    font-size: 1.125em;
+    font-family: 'Merriweather', sans serif;
+    position: relative;
+    left: 20px;
+    top: 10px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.box p:hover {
+    color: #ff0000;
+}
+
+/* Styles for Button within Box5 */
+.btn {
+    width: 103px;
+    height: 30px;
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    outline: 0;
+    border: 0;
+    border-radius: 4px;
+    padding: 1.1666666667em 1.5em; 
+    background: #ffffff;
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 1em;
+    color: #000000;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: .55rem; 
+    text-align: center;
+    text-decoration: none!important;
+    text-transform: uppercase;
+    position: relative;
+    left: 190px;
+    bottom: 25px;
+    cursor: pointer;
+}
+
+button {
+    transition: color 0.3s ease;
+}
+
+button:hover {
+    color: #fdfdfd;
+    background: #ff0000;
+}
+
+#NOUVEAUTES{
+    background-size: cover;
+    background-color: black;
+    height: 700px;
+}
+
+h2{
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-family: 'Merriweather', serif;
+    text-decoration: underline;
+}
+.imgproducts{
+    position: relative;
+    top: 30px;
+}
+
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    padding: 20px; 
+}
+
+.box1{
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 20px;
+    height: 350px;
+    width: 300px;
+    border: 0.5px solid rgba(0,0,0,.03);
+    position: relative;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+    top: 30px;
+    background-image: url(mediacss/bd4ee49fa90078d31efba8a8ce90d867.jpg)
+}
+.box1:hover {
+    box-shadow: 15px 10px 10px rgba(53, 52, 52, 0.932);
+}
+
+/* Styles for Image within Box5 */
+.box1 img {
+    height: 250px;
+    width: 230px;
+    position: relative;
+    left: 45px;
+    top: 5px;
+    
+}
+
+/* Styles for Paragraph within Box5 */
+.box1 p {
+    font-size: 1.125em;
+    font-family: 'Merriweather', sans serif;
+    position: relative;
+    left: 15px;
+    top: 10px;
+    color: #ffffff;
+    transition: color 0.3s ease;
+}
+
+.box1 p:hover {
+    color: #ff0000;
+}
+
+#ABOUTUS{
+    height: 990px;
+    background-color: rgb(255, 255, 255);
+    overflow-y: hidden;
+
+}
+
+h3{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    position: relative;
+    top: 30px;
+    font-family: 'Merriweather', serif;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.logo{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    bottom: 90px;
+    left: 80px;
+}
+
+h4{
+    color: rgb(0, 0, 0);
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 25px; 
+    position: relative;
+    bottom: 300px;
+    left: 550px;
+}
+.gif0{
+    height: 150px;
+    width: 250px;
+    position: relative;
+    left: 50px;
+    bottom: 200px;
+}
+.gif{
+    height: 150px;
+    width: 250px;
+    position: relative;
+    left: 780px;
+    bottom: 200px;
+}
+
+h5{
+    color: rgb(0, 0, 0);
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 20px; 
+    position: relative;
+    text-align: center;
+    bottom: 380px;
+}
+
+.p0{
+    color: rgb(0, 0, 0);
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 23px; 
+    position: relative;
+    bottom: 250px;
+    left: 20px;
+}
+
+.gif2{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    bottom: 440px;
+    left: 510px;
+}
+
+.p1{
+    color: rgb(0, 0, 0);
+    font-family: 'Zhi Mang Xing', cursive;
+    font-size: 23px; 
+    position: relative;
+    bottom: 610px;
+    left: 920px;
+}
+
+footer{
+    height: 80px;
+    background-color: black;
+}
+
+.p2{
+    color: rgb(0, 0, 0);
+    font-family: 'Lemon', serif;
+    font-size: 10px;
+    position: relative;
+    bottom: 520px;
+    left: 00px;
+    background-color: #ff0000;
+}
+.p3{
+    color: rgb(0, 0, 0); 
+    font-family: 'Lemon', serif;
+    font-size: 10px;
+    position: relative;
+    bottom: 540px;
+    left: 1200px;
+}
+.contact{
+    position: relative;
+    top: 10px;
+    left: 50px;
+    
+}
+
+.contact img{
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+
+.contact img:hover{
+    background:  rgba(252, 252, 252, 0.795);
+    border-radius: 30px;
+}
+
+.p4{
+    position: relative;
+    bottom: 60px;
+    left: 100px;  
+    color: grey;
+    font-size: 10px;
+}
